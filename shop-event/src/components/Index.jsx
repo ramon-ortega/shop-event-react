@@ -1,17 +1,20 @@
 import Container from './Container';
+import SideBar from './SideBar';
+import TopBar from './TopBar';
 
 const Index = () => {
 
     return(
 
-        <Container>
-
-            <h4>Página principal</h4>
-            <div>Elemento 1</div>
-            <div>Elemento 1</div>
-            <div>Elemento 1</div>
-
-        </Container>
+        <div id="wrapper">
+            <SideBar />
+            <div id="content-wrapper" className="d-flex flex-column">
+                {/*<!-- Main Content -->*/}
+                <div id="content">
+                    <TopBar />
+                </div>
+            </div> 
+        </div>
 
     );
 
