@@ -1,6 +1,7 @@
 import Container from './Container';
 import SideBar from './SideBar';
 import TopBar from './TopBar';
+import ContentWrapper from './ContentWrapper';
 
 const Index = () => {
 
@@ -11,7 +12,7 @@ const Index = () => {
             <div id="content-wrapper" className="d-flex flex-column">
                 {/*<!-- Main Content -->*/}
                 <div id="content">
-                    <TopBar />
+                    <ContentWrapper />
                 </div>
             </div> 
         </div>
