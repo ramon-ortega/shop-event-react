@@ -9,20 +9,6 @@ class CardInDb extends Component{
         }
     }
 
-/*     componentDidMount(){
-        fetch('http://localhost:3001/api/users')
-        .then(response => {
-            return response.json();
-        })
-        .then(users => {
-            console.log(users);
-            this.setState({user: users.data.length});
-        })
-        .catch(error => {
-            console.log(error);
-        });
-    } */
-
     componentDidMount(){
         fetch(this.props.url)
         .then(response => {
