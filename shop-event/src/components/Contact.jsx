@@ -6,10 +6,11 @@ const Contact = () => {
 
         <Container>
 
-            <h4>Página de contacto</h4>
-            <div>Elemento A</div>
-            <div>Elemento B</div>
-            <div>Elemento C</div>
+            <div>
+                <h1>Página de contacto</h1>
+
+                <p>Shop event</p>
+            </div>
 
         </Container>
 

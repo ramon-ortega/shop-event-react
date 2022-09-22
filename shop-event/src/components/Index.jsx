@@ -1,6 +1,4 @@
-import Container from './Container';
 import SideBar from './SideBar';
-import TopBar from './TopBar';
 import ContentWrapper from './ContentWrapper';
 
 const Index = () => {
